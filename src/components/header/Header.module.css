@@ -1,0 +1,83 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 35px;
+    background: #28292B;
+}
+
+.headerSearch{
+    width: 100%;
+    position: relative;
+}
+
+.search{
+    max-width: 380px;
+    width: 100%;
+    padding: 12px 0 12px 56px;
+    background: #222325;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.searchIcon{
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+
+.headerLanguage{
+    display: flex;
+    align-items: center;
+    color: #8C8B8E;
+}
+
+.headerLanguage img {
+    margin-left: 10px;
+}
+
+.headerBtns{
+    display: flex;
+    align-items: center;
+}
+
+.notification{
+    margin-left: 25px;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.accountInfo{
+    margin-right: 10px;
+}
+
+.infoName{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.infoRole{
+    color: #939495;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.accountImage{
+    position: relative;
+}
+
+.imageStatus{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: green;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}

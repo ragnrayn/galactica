@@ -1,0 +1,88 @@
+.level {
+    width: 264px;
+    min-height: 434px;
+    background: #28292B;
+    border-radius: 10px;
+}
+
+.levelHello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.helloName {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 40px 0 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+.helloName img{
+    margin-left: 15px;
+}
+
+.helloText {
+    max-width: 182px;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 28px;
+}
+
+.levelPlanet{
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #28292b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circleBorder {
+    position: relative;
+    text-align: center;
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    background-color: #E53B3B;
+    background: linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, lightgray 50%)
+}
+
+.levelScore{
+    position: absolute;
+}
+
+.scoreNumber{
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.scoreText{
+    padding: 4px 10px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    color: #fff;
+}
+
+.newLevel{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.3);
+}
